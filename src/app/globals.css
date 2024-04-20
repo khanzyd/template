@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+.banner{
+    height: 25vh;
+    padding: 2rem;
+    background-color: white;
+}
+
+.logo{
+    height: 100%;
+}
+
+.navbar{
+    background-color: #2d3e50;
+    height: 3rem;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 4rem;
+    gap: 2rem;
+}
+
+.nav_items:hover{
+    
+}
