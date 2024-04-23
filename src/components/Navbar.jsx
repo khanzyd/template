@@ -13,11 +13,11 @@ export default function Navbar() {
       </div>
       <div className="w-full bg-[#d8cbc4] flex justify-end gap-6 text-lg font-semibold py-2 pr-24">
         <Link href={"/"}>Home</Link>
-        <Link href={"/about"}>About us</Link>
         <Link href={"/departments"}>Departments</Link>
         <Link href={"/departments"}>Departments</Link>
         <Link href={"/departments"}>Departments</Link>
         <Link href={"/"}>Contact</Link>
+        <Link href={"/about"}>About us</Link>
       </div>
     </div>
   );

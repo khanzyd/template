@@ -12,7 +12,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div  className=" w-full flex justify-center py-2 flex-col items-center">
+      <div  className=" w-full flex justify-center py-2 flex-col items-center overflow-hidden">
         <div className="pic-ctn">
             <Image src={College} width={1080} alt="College Image" className="pic" />
             <Image src={College} width={1080} alt="College Image" className="pic" />
@@ -20,9 +20,33 @@ export default function Home() {
             <Image src={College} width={1080} alt="College Image" className="pic" />
             <Image src={College} width={1080} alt="College Image" className="pic" />
         </div>
-        <p className=" w-4/5 text-lg font-medium py-3 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis, alias pariatur voluptates ullam, sit quos harum porro, iste quaerat repellendus. Impedit dolores itaque cupiditate quis consequuntur dolorum suscipit ipsam quidem, omnis accusantium natus, distinctio eius, repellendus voluptatibus commodi exercitationem ipsum labore fugiat quia eaque dicta accusamus similique possimus? Beatae quod a accusamus nobis soluta mollitia eius assumenda voluptate. Quas cumque velit dicta vitae tempora voluptatibus exercitationem magni harum sed incidunt provident quos, rem sapiente magnam doloremque, enim recusandae earum? Dolorem accusamus rerum consequatur aliquam animi saepe blanditiis reprehenderit fuga accusantium, tempore cum odio possimus, unde illo assumenda eum veritatis ullam? Dignissimos vel quaerat distinctio sint, consequuntur veniam quas neque assumenda repellendus porro ipsa quisquam hic nemo iste sunt culpa obcaecati non ipsam in dolorum est officiis expedita. Quidem eos temporibus, ducimus delectus eveniet impedit sequi iste laudantium dolorem corrupti molestias explicabo vero nam maiores fugiat officiis eum cumque iusto. Consectetur voluptates earum quis adipisci blanditiis perferendis a necessitatibus modi, eius eos quo minima, tempora expedita aut eligendi reprehenderit, rerum id natus? Quaerat error ex quos nostrum laboriosam praesentium assumenda obcaecati eligendi porro commodi, eveniet, nulla omnis aut magnam eum reprehenderit aspernatur ab quasi dolor voluptates accusantium molestias accusamus animi.
-        </p>
+        <section className="mt-32 mx-16 italic text-[1.5rem]">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi ex alias consequuntur consequatur veritatis quo animi quod asperiores saepe voluptate, ipsum nihil, incidunt omnis veniam in magni deserunt expedita illum debitis id! Sunt quod ad impedit quasi amet. Id laboriosam molestias quam ratione possimus impedit veniam illo? Quos, laudantium.</div>
+        </section>
+        <section className="flex mx-16 mt-16 text-[1.25rem] items-center gap-16 pl-16">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi ex alias consequuntur consequatur veritatis quo animi quod asperiores saepe voluptate, ipsum nihil, incidunt omnis veniam in magni deserunt expedita illum debitis id! Sunt quod ad impedit quasi amet. Id laboriosam molestias quam ratione possimus impedit veniam illo? Quos, laudantium.</div>
+            <img src={"https://images.pexels.com/photos/4069882/pexels-photo-4069882.jpeg?auto=compress&cs=tinysrgb&w=600"} 
+                alt="image"
+                className="w-1/2"></img>
+        </section>
+        <section className="flex mx-16 mt-16 text-[1.25rem] items-center gap-16 pl-16">
+            <img src={"https://images.pexels.com/photos/4069882/pexels-photo-4069882.jpeg?auto=compress&cs=tinysrgb&w=600"} 
+                alt="image"
+                className="w-1/2"></img>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi ex alias consequuntur consequatur veritatis quo animi quod asperiores saepe voluptate, ipsum nihil, incidunt omnis veniam in magni deserunt expedita illum debitis id! Sunt quod ad impedit quasi amet. Id laboriosam molestias quam ratione possimus impedit veniam illo? Quos, laudantium.</div>
+        </section>
+        <section className="flex mx-16 mt-16 text-[1.25rem] items-center gap-16 pl-16">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi ex alias consequuntur consequatur veritatis quo animi quod asperiores saepe voluptate, ipsum nihil, incidunt omnis veniam in magni deserunt expedita illum debitis id! Sunt quod ad impedit quasi amet. Id laboriosam molestias quam ratione possimus impedit veniam illo? Quos, laudantium.</div>
+            <img src={"https://images.pexels.com/photos/4069882/pexels-photo-4069882.jpeg?auto=compress&cs=tinysrgb&w=600"} 
+                alt="image"
+                className="w-1/2"></img>
+        </section>
+        <section className="flex mx-16 mt-16 text-[1.25rem] items-center gap-16 pl-16">
+            <img src={"https://images.pexels.com/photos/4069882/pexels-photo-4069882.jpeg?auto=compress&cs=tinysrgb&w=600"} 
+                alt="image"
+                className="w-1/2"></img>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi ex alias consequuntur consequatur veritatis quo animi quod asperiores saepe voluptate, ipsum nihil, incidunt omnis veniam in magni deserunt expedita illum debitis id! Sunt quod ad impedit quasi amet. Id laboriosam molestias quam ratione possimus impedit veniam illo? Quos, laudantium.</div>
+        </section>
       </div>
     </div>
   );
